@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'CRUD.apps.CRUDConfig,CrudConfig',  # Custom app for CRUD operations
 ]
 
 MIDDLEWARE = [
